@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.whole{
+    /* min-height: 100vh; */
+    height: max-content;
+    /* width:fit-content; */
+}
+.nav{
+    height: max-content;
+    /* width: 100vw; */
+    background: #C3ACD0;
+    display: sticky;
+}
+nav{
+    padding: 1rem 0;
+    
+}
+.nav > nav > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    /* width:100vw; */
+    height: max-content;
+    list-style-type: none;
+    font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5B0888;
+
+}
+.main{
+    /* width: 100vw; */
+    height: max-content;
+}
+.basic{
+    /* width: 100vw; */
+    height: 200px;
+    background: #C3ACD0;
+    display: flex;
+    padding: 2rem 0;
+}
+
+.text , .image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    /* border: 2px solid beige; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5B0888;
+    
+}
+.desc{
+    width: 60%;
+    font-size: 19px;
+    text-align: center;
+}
+.img{
+    border-radius:50%;
+    height: 90%;
+    /* width:fit-content; */
+    border: 5px solid #5B0888;
+    
+}
+img{
+    height: 100%;
+    background-position: bottom;
+}
+.middle{
+    /* width: 100vw; */
+    height: max-content;
+    background: #C3ACD0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    color: #5B0888;
+}
+.middle_box1{
+    /* width: 40vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* border: 1px solid #5B0888; */
+    box-shadow: 0 0 100px #5B0888;
+    padding: 3rem 3rem;
+    margin: 2rem 0;
+    border-radius: 44px;
+}
+.middle_box1 > ol{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    list-style: none;
+}
+.middle_box1 > ol > li > h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+.last{
+    /* width: 100vw; */
+    height: max-content;
+    padding: 1.5rem 0;
+    background: orangered;
+    color: #5B0888;
+    background: #C3ACD0;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+a{
+    text-decoration: none;
+    
+}
